@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JMM="http://JMM/_11_5_1ab00d4_1164055757453_405595_1" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xsi:schemaLocation="http://JMM/_11_5_1ab00d4_1164055757453_405595_1 JMM.profile.uml#_yyl_WhCDEfGMJ_pXoEL-UQ http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
+  <uml:Model xmi:id="4b291138-7bc0-445b-942f-712fd770bcb6" name="Model" viewpoint="">
+    <ownedComment xmi:id="dae0fd73-78ef-44f9-b47a-e33230602df4" body="Author:JEAF.&#xA;Created:16.02.2026, 09:46.&#xA;Title:.&#xA;Comment:.&#xA;" annotatedElement="4b291138-7bc0-445b-942f-712fd770bcb6"/>
+    <packageImport xmi:id="_0primitiveTypesModel">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:id="_0javaPrimitiveTypesModel">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:id="f89f2487-8314-4d5f-bb2b-3de8e7eb2127usedProjectModel">
+      <importedPackage xmi:type="uml:Model" href="JEAF_Generator_Metamodel.uml#f89f2487-8314-4d5f-bb2b-3de8e7eb2127"/>
+    </packageImport>
+    <packageImport xmi:id="44285c09-9b39-4ca6-a00e-f26d8352bb63usedProjectModel">
+      <importedPackage xmi:type="uml:Model" href="UML_Standard_Profile.uml#44285c09-9b39-4ca6-a00e-f26d8352bb63"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="2ec58a27-44a8-4ce3-87ff-25f0e4b5dcd5" name="Implementation View">
+      <packagedElement xmi:type="uml:Package" xmi:id="71fb0f1e-7b8a-4ec2-9cb3-bea32ac16226" name="com">
+        <packagedElement xmi:type="uml:Package" xmi:id="dbf07b0e-89b1-4f8a-a7e4-c94ca5bc44c8" name="anaptecs">
+          <packagedElement xmi:type="uml:Package" xmi:id="9c0282b6-c012-4873-8c58-fed3b695a3bd" name="jeaf">
+            <packagedElement xmi:type="uml:Package" xmi:id="17425414-4c0e-4422-99a8-0012739deb74" name="maven">
+              <packagedElement xmi:type="uml:Artifact" xmi:id="d9f0bf61-b51d-4df6-bbee-9e77c5594b14" name="Maven Project Template" fileName=""/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="f377db86-a793-4df9-9d23-942aa6700a49profileApplicationModel">
+      <eAnnotations xmi:id="_yypnMBCDEfGMJ_pXoEL-UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Find_By_Text.profile.uml#_yyn0AhCDEfGMJ_pXoEL-UQ"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.Find_By_Text.profile.uml#f377db86-a793-4df9-9d23-942aa6700a49"/>
+    </profileApplication>
+    <profileApplication xmi:id="80eb9726-5003-46fc-ac82-45a872b95e3bprofileApplicationModel">
+      <eAnnotations xmi:id="_yyqOQRCDEfGMJ_pXoEL-UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#_yyjhbBCDEfGMJ_pXoEL-UQ"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#80eb9726-5003-46fc-ac82-45a872b95e3b"/>
+    </profileApplication>
+    <profileApplication xmi:id="d49be6b8-3b9e-40be-a122-b442a0cdb346profileApplicationModel">
+      <eAnnotations xmi:id="_yyqOQxCDEfGMJ_pXoEL-UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#_yyl-pBCDEfGMJ_pXoEL-UQ"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#d49be6b8-3b9e-40be-a122-b442a0cdb346"/>
+    </profileApplication>
+    <profileApplication xmi:id="4f284c7a-2af0-4a4d-afe8-e6351d0c5f48profileApplicationModel">
+      <eAnnotations xmi:id="_yyq1URCDEfGMJ_pXoEL-UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Validation_Profile.profile.uml#_yyn0EBCDEfGMJ_pXoEL-UQ"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.Validation_Profile.profile.uml#4f284c7a-2af0-4a4d-afe8-e6351d0c5f48"/>
+    </profileApplication>
+    <profileApplication xmi:id="ec7b5f24-7037-4b4c-8237-92cd4a8ceb42profileApplicationModel">
+      <eAnnotations xmi:id="_yyq1UxCDEfGMJ_pXoEL-UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#_yylXXhCDEfGMJ_pXoEL-UQ"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#ec7b5f24-7037-4b4c-8237-92cd4a8ceb42"/>
+    </profileApplication>
+    <profileApplication xmi:id="d922f88f-f6b3-48c6-9247-e516382a0ef6profileApplicationModel">
+      <eAnnotations xmi:id="_yyq1VRCDEfGMJ_pXoEL-UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.StandardProfile.profile.uml#_yyi5ghCDEfGMJ_pXoEL-UQ"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.StandardProfile.profile.uml#d922f88f-f6b3-48c6-9247-e516382a0ef6"/>
+    </profileApplication>
+    <profileApplication xmi:id="5c5474e1-7418-4d26-a975-2ae2beab0d46profileApplicationModel">
+      <eAnnotations xmi:id="_yyq1VxCDEfGMJ_pXoEL-UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="JMM.profile.uml#_yyl_WhCDEfGMJ_pXoEL-UQ"/>
+      </eAnnotations>
+      <appliedProfile href="JMM.profile.uml#5c5474e1-7418-4d26-a975-2ae2beab0d46"/>
+    </profileApplication>
+    <profileApplication xmi:id="8d39c523-4bd5-4428-8138-dede2325e8deprofileApplicationModel">
+      <eAnnotations xmi:id="_yyq1WRCDEfGMJ_pXoEL-UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Dependency_Matrix_Profile.profile.uml#_yyi5iBCDEfGMJ_pXoEL-UQ"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.Dependency_Matrix_Profile.profile.uml#8d39c523-4bd5-4428-8138-dede2325e8de"/>
+    </profileApplication>
+    <profileApplication xmi:id="_0profileApplicationModel">
+      <eAnnotations xmi:id="_yzHhQRCDEfGMJ_pXoEL-UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Standard:ModelLibrary xmi:id="_yzHhQhCDEfGMJ_pXoEL-UQ" base_Package="2ec58a27-44a8-4ce3-87ff-25f0e4b5dcd5"/>
+  <JMM:MavenProject xmi:id="_yzOO-hCDEfGMJ_pXoEL-UQ" archetype="CUSTOM" base_Artifact="d9f0bf61-b51d-4df6-bbee-9e77c5594b14"/>
+</xmi:XMI>
