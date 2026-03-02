@@ -15,6 +15,20 @@
 	<packaging>pom</packaging>
 	<name>JEAF Generator Project Template Model</name>
 
+	<scm>
+		<connection>scm:git:https://github.com/anaptecs/eaf-generator-project-template-model.git</connection>
+		<developerConnection>scm:git:https://github.com/anaptecs/eaf-generator-project-template-model.git</developerConnection>
+		<url>https://github.com/anaptecs/eaf-generator-project-template-model</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/anaptecs/eaf-generator-project-template-model</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<build>
 		<plugins>
             <plugin>
