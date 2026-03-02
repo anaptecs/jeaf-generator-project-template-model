@@ -25,7 +25,7 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>github</id>
-			<url>https://maven.pkg.github.com/anaptecs/eaf-generator-project-template-model</url>
+			<url>https://maven.pkg.github.com/anaptecs/jeaf-generator-project-template-model</url>
 		</snapshotRepository>
 	</distributionManagement>
 
