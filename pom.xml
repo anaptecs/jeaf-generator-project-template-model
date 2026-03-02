@@ -16,9 +16,9 @@
 	<name>JEAF Generator Project Template Model</name>
 
 	<scm>
-		<connection>scm:git:https://github.com/anaptecs/eaf-generator-project-template-model.git</connection>
-		<developerConnection>scm:git:https://github.com/anaptecs/eaf-generator-project-template-model.git</developerConnection>
-		<url>https://github.com/anaptecs/eaf-generator-project-template-model</url>
+		<connection>scm:git:https://github.com/anaptecs/jeaf-generator-project-template-model.git</connection>
+		<developerConnection>scm:git:https://github.com/anaptecs/jeaf-generator-project-template-model.git</developerConnection>
+		<url>https://github.com/anaptecs/jeaf-generator-project-template-model</url>
 		<tag>HEAD</tag>
 	</scm>
 
