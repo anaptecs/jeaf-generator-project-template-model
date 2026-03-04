@@ -9,11 +9,13 @@
 		<version>1.11.0</version>
 	</parent>
 
+
 	<groupId>com.anaptecs.jeaf.uml</groupId>
 	<artifactId>jeaf-generator-project-template-model</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>JEAF Generator Project Template Model</name>
+
 
 	<scm>
 		<connection>scm:git:https://github.com/anaptecs/jeaf-generator-project-template-model.git</connection>
@@ -22,12 +24,14 @@
 		<tag>HEAD</tag>
 	</scm>
 
+
 	<distributionManagement>
 		<snapshotRepository>
 			<id>github</id>
 			<url>https://maven.pkg.github.com/anaptecs/jeaf-generator-project-template-model</url>
 		</snapshotRepository>
 	</distributionManagement>
+
 
 	<build>
 		<plugins>
