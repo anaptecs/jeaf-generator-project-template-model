@@ -35,25 +35,25 @@
 
 	<build>
 		<plugins>
-						<plugin>
-								<groupId>org.apache.maven.plugins</groupId>
-								<artifactId>maven-assembly-plugin</artifactId>
-								<version>${maven.assembly.version}</version>
-								<configuration>
-										<appendAssemblyId>false</appendAssemblyId>
-										<descriptors>
-												<descriptor>${basedir}/assembly.xml</descriptor>
-										</descriptors>
-								</configuration>
-								<executions>
-										<execution>
-												<phase>package</phase>
-												<goals>
-														<goal>single</goal>
-												</goals>
-										</execution>
-								</executions>
-						</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>${maven.assembly.version}</version>
+				<configuration>
+					<appendAssemblyId>false</appendAssemblyId>
+					<descriptors>
+						<descriptor>${basedir}/assembly.xml</descriptor>
+					</descriptors>
+				</configuration>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 
